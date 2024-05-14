@@ -59,7 +59,6 @@ function has_child(prefix) {
 }
 
 function find_words(word = "", has_necessary = false) {
-  console.log(word);
   const children = has_child(word);
 
   if (has_necessary && is_word(word)) {

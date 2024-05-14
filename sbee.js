@@ -3,8 +3,8 @@ import { readFileSync } from "node:fs";
 let trie = {};
 let depth = 0;
 let words = [];
-const letters = "huimfed".split("");
-const necessary = "d";
+const letters = process.argv[2].split("");
+const necessary = process.argv[3];
 
 function build_trie(data) {
   let temp = trie;

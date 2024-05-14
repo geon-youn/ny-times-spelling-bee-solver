@@ -8,4 +8,4 @@ A solver for the NYTimes game: Spelling Bee.
 
 ## Running the script
 
-First, update the letters and necessary letter by updating lines 6 and 7. Then, run `node ./sbee.js` in the console. 
+Run `node sbee <all_letters> <necessary_letter>` in the console. For example, for the May 14, 2024 puzzle, you would type `node sbee humidef d`.
